@@ -1,0 +1,40 @@
+* {
+    font-family : 'Heebo', sans-serif;
+}
+.App {
+    background-color : #353A4D;
+}
+.body {
+    background-color : #8EAEA9;
+    position         : relative;
+    height           : 500px;
+}
+.App-header {
+    .spacer {
+        width : 100%;
+    }
+    .curve {
+        width  : 110%;
+        margin : -10px 0;
+    }
+}
+h1 {
+    text-transform            : uppercase;
+    letter-spacing            : 5px;
+    margin                    : -10px 0 -25px 0;
+    padding                   : 0;
+    font-size                 : 60px;
+    color                     : transparent;
+    -webkit-text-stroke-width : 2px;
+    -webkit-text-stroke-color : $pink-20;
+    transition                : 0.2s all ease;
+    &:hover {
+        cursor                    : pointer;
+        color                     : $pink-20;
+        -webkit-text-stroke-color : $pink-20;
+    }
+}
+h2 {
+    padding-top : 40px;
+    margin      : 0;
+}
